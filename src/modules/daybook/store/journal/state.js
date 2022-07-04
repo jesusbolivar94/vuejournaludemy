@@ -2,21 +2,21 @@ export default () => ({
     isLoading: true,
     entries: [
         {
-            id: new Date().getTime(),
+            id: '1',
             date: new Date().toDateString(),
-            text: 'lorem ipsum dolor sit amen',
+            text: 'caesiums tolerare, tanquam fortis pars. Urias tolerare! Pulchritudine de lotus decor, imitari cedrium!',
             picture: null,
         },
         {
-            id: new Date().getTime() + 1000,
+            id: '2',
             date: new Date().toDateString(),
-            text: 'lorem ipsum dolor sit amen',
+            text: 'clemens stellas ducunt ad calcaria. Silva, omnia, et victrix.',
             picture: null,
         },
         {
-            id: new Date().getTime() + 2000,
+            id: '3',
             date: new Date().toDateString(),
-            text: 'lorem ipsum dolor sit amen',
+            text: 'eternal trusts understands most happinesses. Urias tolerare! Pulchritudine de lotus decor, imitari cedrium!',
             picture: null,
         },
     ]
