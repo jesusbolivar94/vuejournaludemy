@@ -3,7 +3,7 @@
         <h1 class="align-self-center">No hay nada seleccionado</h1>
     </div>
 
-    <fab-button></fab-button>
+    <fab-button @on:click="createNewEntry"></fab-button>
 </template>
 
 <script>
@@ -12,6 +12,11 @@
     export default {
         components: {
             FabButton: defineAsyncComponent(() => import('../components/FabButton'))
+        },
+        methods: {
+            createNewEntry() {
+                this.$router.push({ name: 'entry', params: { id: 'new' } })
+            }
         }
     }
 </script>
