@@ -93,7 +93,7 @@
                 this.entry = entry
             },
             async saveEntry() {
-                new Swal({
+                await Swal.fire({
                     title: 'Espere por favor',
                     allowOutsideClick: false
                 })
@@ -125,7 +125,7 @@
                 })
 
                 if ( isConfirmed ) {
-                    new Swal({
+                    await Swal.fire({
                         title: 'Espere por favor',
                         allowOutsideClick: false
                     })
